@@ -1,0 +1,42 @@
+.titulo {
+    text-align: center;
+
+    margin-bottom: 50px;
+    color: royalblue;
+}
+
+.exercicios {
+    border: solid royalblue;
+    border-style: dashed;
+    background-color: rgb(206, 211, 211);
+    color: rgb(28, 72, 73);
+
+    text-align: center;
+
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+
+    max-width: 960px;
+}
+
+.imagens {
+    width: 50px;
+    height: 70px;
+    margin-bottom: 25px;
+}
+
+.pcolor {
+    color: red;
+}
+
+#farol {
+    background-color: white;
+    border-radius: 100%;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="titulo">HTML e JS</h1>
+
+    <div class="exercicios">
+        <h2>Exibir Data/Horario Atual</h2>
+        <button onclick="document.getElementById('demoData')
+        .innerHTML=Date()";
+        > Clique Aqui</button>
+        <p id="demoData"></p>
+    </div>
+
+    <div class="exercicios" >
+        <h2>Mudar o atributo de um Elemento</h2>
+        <button style="display: inline;" onclick="document.getElementById('lampada')
+        .src='img/ligada.png'"> Ligar </button>
+        
+        <img id="lampada" src="img/desligada.png" alt="Lâmpada" class="imagens">
+        
+        <button style="display: inline;" onclick="document.getElementById('lampada')
+        .src='img/desligada.png'"> Desligar </button>
+        
+        <p id="demoData"></p>
+    </div>
+
+
+    
+    <div class="exercicios" >
+       <h2>Pegar valores do documento</h2>
+       <p>Primeiro número:
+       <input type="number" id="primeiroNumero" value="0"/></p>
+
+       <p>Segundo número:
+       <input type="number" id="segundoNumero" value="0"/></p>
+
+       <button onclick="somarDoisNumeros()" >Clique aqui para exibir o resultado</button>
+       <p class="pcolor" class="textoClicavel" id="resultado"></p>
+
+    </div>
+
+
+    <div class="exercicios" >
+        <h2>Verificar o Valor e tomar uma decisão</h2>
+        <p> saldo no banco: <input type="number" id="saldo" value="-10"></p>
+        <button onclick="verificarSaldo()">Como está minha saúde financeira?</button>
+        <div id="farol"></div>
+        
+ 
+     </div>
+
+     <div class="exercicios" >
+        <h2>Gerar meus números da sorte</h2>
+
+        <button onclick="gerarNumeros()">Gerar Números</button>
+        
+        <p id="sorteados">* * * * *</p>
+ 
+     </div>
+
+    
+
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
